@@ -3,6 +3,7 @@
 
 Este projeto desenvolve um pipeline de dados "near-real time". O pipeline realiza a extração de dados via API utilizando a biblioteca ```requests```, trata os dados com ```pandas``` através de Google Cloud Functions e os carrega para o BigQuery. O agendamento é realizado através do Google Cloud Scheduler, e os dados são extraídos e orquestrados do BigQuery pelo airflow para o Manus AI com atualização automática.
 
+<img width="990" height="222" alt="image" src="https://github.com/user-attachments/assets/4981a6fb-dc45-46e7-aecb-5fafa6178fef" />
 
 
 ## Estrutura do Pojeto
